@@ -5,19 +5,17 @@
       <br />
       <h6 class="text-secondary">Gerador de nomes utilizando Vue.js, GraphQL, e Node</h6>
     </div>
-    <ListName />
-    <ListDomain />
+    <ListNameDomain />
   </div>
 </template>
 
 <script>
-import ListName from './components/ListName'
-import ListDomain from './components/ListDomain'
+import ListNameDomain from "./components/ListNameDomain";
 
 export default {
-  components: { ListName, ListDomain },
-  name: 'App'
-}
+	components: { ListNameDomain },
+	name: "App"
+};
 </script>
 
 <style>
